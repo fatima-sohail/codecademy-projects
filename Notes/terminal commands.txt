@@ -1,0 +1,2 @@
+$ cd codecademy-projects/
+terminal moves present working directory(pwd) into sub directory specified

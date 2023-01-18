@@ -1,0 +1,9 @@
+$ git clone https://github.com/fatima-sohail/codecademy-projects.git
+ It clones the project from github to your present working directory(pwd)
+
+$ git status
+Displays the status of changes in local directory
+
+$ git add .
+It prepares/stages the changes the needs to be committed
+A commit is a unit of changes that we want to push/merge to github/remote repository
