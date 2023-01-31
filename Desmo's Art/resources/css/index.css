@@ -1,0 +1,22 @@
+.image {
+    background-image: url(../images/pattern.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+  .heading {
+    font-family: cursive;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+  }
+  
+  .brushdesk {
+    font-family: cursive;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: darksalmon;
+    color: white;
+  }
