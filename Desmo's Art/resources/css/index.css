@@ -1,3 +1,7 @@
+* {
+    font-family: cursive;
+}
+
 .image {
     background-image: url(../images/pattern.jpeg);
     background-size: cover;
@@ -6,7 +10,6 @@
   }
 
   .heading {
-    font-family: cursive;
     font-size: 100px;
     font-weight: bold;
     color: khaki;
@@ -14,9 +17,28 @@
   }
   
   .brushdesk {
-    font-family: cursive;
     font-size: 32px;
     font-weight: bold;
     background-color: darksalmon;
     color: white;
+  }
+
+  .framesdesk {
+    font-size: 32px;
+    font-weight: bold;
+    background-color: palevioletred;
+    color: white;
+  }
+
+  .paintdesk {
+    font-size: 32px;
+    font-weight: bold;
+    background-color: rgba(29, 168, 145, 0.719);
+    color: white;
+  }
+
+  .strong {
+    color:cornflowerblue;
+    font-weight: bold;
+    
   }
