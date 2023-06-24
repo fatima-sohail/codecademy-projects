@@ -18,14 +18,14 @@
       <!-- sending information from our form to story.html using a GET request. -->
       <form action="story.html" method="get">
         <label for="animal-1">Animal:</label>
-        <!-- create an <input> to associate our <label> element with. -->
-          <!-- Set the id of the <input> to "animal-1" and the type to "text". Assign the name to "animal-1". 
+        <!-- create an <input> to associate our <label> element with, id of <input> should match for of <label> -->
+        <!-- Set the id of the <input> to "animal-1" and the type to "text". Assign the name to "animal-1". 
           Remember, the name attribute is needed for information from this <input> to be sent with the 
           form during submission.
 
-          Speaking of submission, since we want our users to put in some value, add the required attribute 
-          to the <input>. -->
-          <input type="text" id="animal-1" name="animal-1" required>
+        Speaking of submission, since we want our users to put in some value, add the required attribute 
+        to the <input>. -->
+       <input type="text" id="animal-1" name="animal-1" required>
        <br>
        <label for="animal-2">Another Animal:</label>
        <input type="text" id="animal-2" name="animal-2" required>
@@ -63,7 +63,9 @@
 
        <!-- add a dropdown list of predefined quotes to choose from -->
        <label for="quote">Motivational Quote</label>
-       <input type="text" id="" name="" required list="quote-choices">
+       <input type="text" id="quote" name="quote" required list="quote-choices">
+       <!-- To associate a <datalist> element with an <input> element, The list attribute should 
+       have the same value as the id attribute of the <datalist> element. -->
        <datalist id="quote-choices">
         <option value="winner gets free icecream"></option>
         <option value="winner gets a free lilpad garden trip"></option>
